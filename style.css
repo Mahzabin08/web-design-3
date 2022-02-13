@@ -1,0 +1,104 @@
+:root{
+	--primary:yellow;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+header{
+	background-color: #680f68;
+	color: white;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.flex{
+display: flex;
+}
+.logo{
+flex-basis: 30%;
+}
+nav{
+flex-basis: 70%;		
+}
+nav ul{
+display: flex;
+justify-content: end;
+list-style: none;	
+}
+header nav a{
+color: white;
+text-decoration: none;
+font-size: 20px;
+padding: 15px;
+display: block;
+}
+header nav a:hover{
+color: var(--primary)
+}
+header .logo a{
+color: white;
+text-decoration: underline;	
+}
+.banner-section{
+	background: rgb(195,130,188);
+background: linear-gradient(90deg, rgba(195,130,188,0.7371323529411764) 3%, rgba(52,1,47,0.6811099439775911) 61%);
+padding: 50px
+}
+.banner-section img{
+height: 470px;
+width: 100%;
+object-fit: cover;
+border-radius: 15px;
+}
+.feature-section{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.feature{
+	padding: 20px;
+	text-align: center;
+}
+.feature h2{
+font-size: 30px;
+margin: 0;
+}
+.feature p{
+font-size: 20px;
+margin: 0;
+padding-top: 20px;
+}
+.aboutme-section{
+	padding-bottom: 40px;
+	padding-bottom:40px;
+}
+.aboutme{
+	flex-basis: 60%;
+	padding: 30px;
+}
+.aboutme h2{font-size: 60px;margin: 0;}
+.aboutme span{
+    color: purple;
+    text-transform: capitalize;
+}
+.aboutme p{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+.mypicture{
+	flex-basis: 40%;
+	padding:30px;
+}
+.mypicture img{
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 11px 12px 40px 0px purple;
+	box-shadow: 15px;
+}
+
+
+
